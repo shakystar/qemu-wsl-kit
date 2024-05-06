@@ -1,0 +1,5 @@
+boot
+build/seed.raw
+build/ubuntu-22.04-minimal-cloudimg-amd64.img
+build/linux-5.15.25
+*.log
