@@ -89,6 +89,6 @@ build_kernel
 mkdir boot
 mv ./build/seed.raw ./boot
 mv ./build/ubuntu-22.04-minimal-cloudimg-amd64.img ./boot
-mv ./build/linux-5.15.25/arch/x86/boot/bzImage ./boot
+mv ./build/linux-5.15.25 ./boot
 
 echo "[+] SETUP END... Don't run it again"

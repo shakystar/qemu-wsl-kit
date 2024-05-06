@@ -1,11 +1,11 @@
 #!/bin/bash
 
-ALLOCATED_RAM="1024" # MiB
+ALLOCATED_RAM="2048" # MiB
 CPU_SOCKETS="1"
 CPU_CORES="2"
 CPU_THREADS="2"
 
-BOOT=./build
+BOOT=./boot
 FILE_IMAGE=${BOOT}/ubuntu-22.04-minimal-cloudimg-amd64.img
 FILE_SEED=${BOOT}/seed.raw
 FILE_KERNEL=${BOOT}/linux-5.15.25/arch/x86/boot/bzImage
