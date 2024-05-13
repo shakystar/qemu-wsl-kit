@@ -1,9 +1,9 @@
 #!/bin/bash
 
-ALLOCATED_RAM="2048" # MiB
+ALLOCATED_RAM="1024" # MiB
 CPU_SOCKETS="1"
-CPU_CORES="2"
-CPU_THREADS="2"
+CPU_CORES="4"
+CPU_THREADS="4"
 
 BOOT=./boot
 FILE_IMAGE=${BOOT}/ubuntu-22.04-minimal-cloudimg-amd64.img
