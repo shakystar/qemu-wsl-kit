@@ -12,7 +12,7 @@ run_cmd()
 
 install_packages()
 {
-    run_cmd sudo apt install bc zstd gawk flex bison openssl dkms autoconf llvm gdb
+    run_cmd sudo apt install bc zstd gawk flex bison openssl dkms autoconf llvm gdb dwarves 
     run_cmd sudo apt install libncurses-dev libssl-dev libelf-dev libudev-dev libpci-dev libiberty-dev
     run_cmd sudo apt install libvirt-clients libvirt-daemon libvirt-daemon-system
     run_cmd sudo apt install bridge-utils virtinst
