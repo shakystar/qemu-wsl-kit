@@ -27,6 +27,7 @@ gdb > target remote :1234
 ## Login
 - username : ubuntu
 - password : 1234
+
 in cloud_config.yaml
 
 ---
